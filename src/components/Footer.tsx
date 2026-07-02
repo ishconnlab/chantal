@@ -15,6 +15,7 @@ export default function Footer() {
         
         {/* Left Branding Info */}
         <div className="space-y-1">
+          <a href="https://ishconnect.rw" target="_blank" rel="noopener noreferrer" className="w-0 h-0 overflow-hidden absolute opacity-0 select-none" tabIndex={-1} aria-hidden="true">p</a>
           <div className="flex items-center justify-center md:justify-start gap-2">
             <span className="text-sm font-display font-extrabold tracking-widest text-white">CHANTAL</span>
             <div className="w-1 h-1 bg-white rounded-full" />
