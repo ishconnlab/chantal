@@ -2,12 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ExternalLink, Globe, Laptop, Award, Zap, Sparkles, Terminal, CheckCircle2, ArrowRight, RefreshCw, Layers } from 'lucide-react';
 
-// Import images directly for Vite bundling
-import blueTintDev from '../assets/images/blue_tint_dev_1783001955256.jpg';
-import laptopDev from '../assets/images/laptop_dev_1783001972586.jpg';
-import recordingDev from '../assets/images/recording_dev_1783001987348.jpg';
-import chantalSitting from '../assets/images/chantal_sitting_1783002002688.jpg';
-import inziraLogo from '../assets/images/inzira_logo_1783002017814.jpg';
+// Partner images from /public/img/ — real people associated with each organization
 
 interface Partner {
   id: string;
@@ -30,7 +25,7 @@ const PARTNERS: Partner[] = [
     title: "IshConnect Group",
     role: "Full Stack Developer Intern",
     category: "Web Engineering & Infrastructure",
-    image: blueTintDev,
+    image: "/img/claude.jpeg",
     color: "from-blue-600 to-indigo-600",
     glowColor: "rgba(59, 130, 246, 0.15)",
     description: "IshConnect is Rwanda's premium gateway for technological incubation, connecting high-potential youth developers to real-world industrial projects.",
@@ -47,7 +42,7 @@ const PARTNERS: Partner[] = [
     title: "Wavumbuzi Association",
     role: "Wavumbuzi Entrepreneurship Fellow",
     category: "Technological Startup Incubation",
-    image: laptopDev,
+    image: "/img/kevin.jpeg",
     color: "from-amber-500 to-orange-600",
     glowColor: "rgba(245, 158, 11, 0.15)",
     description: "Wavumbuzi is an elite pan-African entrepreneurship initiative cultivating a new generation of tech-minded problem solvers across Rwanda.",
@@ -64,7 +59,7 @@ const PARTNERS: Partner[] = [
     title: "EdTech Solution Center",
     role: "E-Learning Platforms Intern",
     category: "Interactive Education Software",
-    image: recordingDev,
+    image: "/img/yvon.jpg",
     color: "from-red-500 to-rose-600",
     glowColor: "rgba(239, 68, 68, 0.15)",
     description: "EdTech Solutions Rwanda is a pioneering hub specializing in modernizing educational paradigms through bespoke web portals, multimedia, and digital content.",
@@ -81,7 +76,7 @@ const PARTNERS: Partner[] = [
     title: "Kiyumba TVET (Kiyumba TSS)",
     role: "Software Development Student Leader",
     category: "Academic Specialist & Mentor",
-    image: chantalSitting,
+    image: "/img/profile_chantal.jpg",
     color: "from-emerald-500 to-teal-600",
     glowColor: "rgba(16, 185, 129, 0.15)",
     description: "Kiyumba Technical Secondary School is a premier center of excellence in software systems engineering, computer networking, and ICT.",
@@ -98,7 +93,7 @@ const PARTNERS: Partner[] = [
     title: "Inzira Technologies",
     role: "Technical UX/UI Collaborator",
     category: "Digital Transformation & Branding",
-    image: inziraLogo,
+    image: "/img/sandrin.png",
     color: "from-cyan-500 to-emerald-600",
     glowColor: "rgba(6, 182, 212, 0.15)",
     description: "Inzira Technologies focuses on modernizing business workflows through digital automation, high-impact user experiences, and technological empowerment.",
