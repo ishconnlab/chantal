@@ -18,7 +18,7 @@ export const PERSONAL_INFO = {
     github: "https://github.com/chantalmutuyimana",
     linkedin: "https://linkedin.com/in/chantalmutuyimana",
     instagram: "https://instagram.com/chantalmutuyimana",
-    facebook: "https://facebook.com/chantalmutuyimana",
+    facebook: "https://www.facebook.com/profile.php?id=61560080764274",
     twitter: "https://twitter.com/chantalmutuyimana",
   }
 };
