@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, Code, Terminal as TerminalIcon } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { label: 'Home', id: 'home' },
@@ -9,7 +9,6 @@ const navItems = [
   { label: 'Skills', id: 'skills' },
   { label: 'Projects', id: 'projects' },
   { label: 'Partners', id: 'partners' },
-  { label: 'Showroom', id: 'interactive-showroom' },
   { label: 'Testimonials', id: 'testimonials' },
   { label: 'Contact', id: 'contact' },
 ];
@@ -110,19 +109,6 @@ export default function Header() {
             })}
           </nav>
  
-          {/* Right Action Button (Interactive quick-jump) */}
-          <div className="hidden lg:flex items-center gap-3">
-            <motion.button
-              whileHover={{ scale: 1.05, bg: '#ffffff', color: '#000000' }}
-              whileTap={{ scale: 0.95 }}
-              onClick={() => scrollTo('interactive-showroom')}
-              className="px-6 py-2 border border-white/20 text-[11px] uppercase tracking-widest text-white hover:bg-white hover:text-black transition-colors rounded-none font-medium cursor-pointer"
-              id="showroom-cta"
-            >
-              LAUNCH SHOWROOM
-            </motion.button>
-          </div>
-
           {/* Mobile Menu Toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -164,15 +150,6 @@ export default function Header() {
                   </motion.button>
                 );
               })}
-              <motion.button
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: navItems.length * 0.05 }}
-                onClick={() => scrollTo('interactive-showroom')}
-                className="mt-4 px-8 py-3 border border-white/20 text-xs uppercase tracking-widest text-white bg-transparent hover:bg-white hover:text-black transition-colors rounded-none font-medium cursor-pointer"
-              >
-                LAUNCH SHOWROOM
-              </motion.button>
             </div>
           </motion.div>
         )}
