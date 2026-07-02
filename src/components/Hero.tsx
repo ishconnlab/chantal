@@ -175,7 +175,7 @@ CHANTAL - SOFTWARE & MOBILE DEVELOPER
 Location: Muhanga District, Rwanda
 Email: mutuyimanachantal16@gmail.com
 Phone: +250793436871
-GitHub: https://github.com/chantal-dev-rw
+GitHub: https://github.com/chantalmutuyimana
 
 ----------------------------------------
 SUMMARY
@@ -248,7 +248,7 @@ Designed with Passion by Chantal @ 2026
           <span className="[writing-mode:vertical-rl] rotate-180 text-[10px] uppercase tracking-[0.4em] text-zinc-500 font-mono">Follow — Socials</span>
           <div className="flex flex-col gap-4 text-zinc-400">
             <a 
-              href="https://github.com/chantal-dev-rw" 
+              href="https://github.com/chantalmutuyimana" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="p-2 border border-zinc-800 hover:border-white text-zinc-400 hover:text-white transition-colors"
@@ -256,7 +256,7 @@ Designed with Passion by Chantal @ 2026
               <Github size={14} />
             </a>
             <a 
-              href="https://linkedin.com/in/chantal-dev-rw" 
+              href="https://linkedin.com/in/chantalmutuyimana" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="p-2 border border-zinc-800 hover:border-white text-zinc-400 hover:text-white transition-colors"
@@ -264,7 +264,7 @@ Designed with Passion by Chantal @ 2026
               <Linkedin size={14} />
             </a>
             <a 
-              href="https://twitter.com/chantal_dev" 
+              href="https://twitter.com/chantalmutuyimana" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="p-2 border border-zinc-800 hover:border-white text-zinc-400 hover:text-white transition-colors"

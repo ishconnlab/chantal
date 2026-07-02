@@ -15,11 +15,11 @@ export const PERSONAL_INFO = {
     email: "mutuyimanachantal16@gmail.com",
     phone: "+250793436871",
     location: "Muhanga District, Southern Province, Rwanda",
-    github: "https://github.com/chantal-dev-rw",
-    linkedin: "https://linkedin.com/in/chantal-dev-rw",
-    instagram: "https://instagram.com/chantal_dev",
-    facebook: "https://facebook.com/chantal.dev",
-    twitter: "https://twitter.com/chantal_dev",
+    github: "https://github.com/chantalmutuyimana",
+    linkedin: "https://linkedin.com/in/chantalmutuyimana",
+    instagram: "https://instagram.com/chantalmutuyimana",
+    facebook: "https://facebook.com/chantalmutuyimana",
+    twitter: "https://twitter.com/chantalmutuyimana",
   }
 };
 
@@ -193,7 +193,7 @@ export const PROJECTS: Project[] = [
       "Data Protection: High-security encryption and automatic lockouts to keep corporate records safe"
     ],
     tags: ["React", "Node.js", "MySQL", "Tailwind CSS"],
-    githubUrl: "https://github.com/chantal-dev-rw/epms-system"
+    githubUrl: "https://github.com/chantalmutuyimana/epms-system"
   },
   {
     id: "proj-2",
@@ -207,7 +207,7 @@ export const PROJECTS: Project[] = [
       "Performance Summary: Visual display of hot-selling items and overall business health"
     ],
     tags: ["Laravel", "PHP", "MySQL", "Chart.js"],
-    githubUrl: "https://github.com/chantal-dev-rw/stock-manager"
+    githubUrl: "https://github.com/chantalmutuyimana/stock-manager"
   },
   {
     id: "proj-3",
@@ -221,7 +221,7 @@ export const PROJECTS: Project[] = [
       "Busy-Hours Charts: Simple graphs displaying the busiest parking times of the day"
     ],
     tags: ["Vue.js", "Python", "Flask", "Tailwind CSS"],
-    githubUrl: "https://github.com/chantal-dev-rw/parking-system"
+    githubUrl: "https://github.com/chantalmutuyimana/parking-system"
   },
   {
     id: "proj-4",
@@ -235,7 +235,7 @@ export const PROJECTS: Project[] = [
       "Live Deliveries: Real-time notifications on order status and estimated arrival times"
     ],
     tags: ["Flutter", "Dart", "Firebase", "State Management"],
-    githubUrl: "https://github.com/chantal-dev-rw/foodie-app"
+    githubUrl: "https://github.com/chantalmutuyimana/foodie-app"
   },
   {
     id: "proj-5",
@@ -249,7 +249,7 @@ export const PROJECTS: Project[] = [
       "Tailored Workouts: Dynamic exercise programs customized to your individual fitness level"
     ],
     tags: ["React Native", "Expo", "SQLite", "Tailwind CSS"],
-    githubUrl: "https://github.com/chantal-dev-rw/fitness-coach"
+    githubUrl: "https://github.com/chantalmutuyimana/fitness-coach"
   }
 ];
 
